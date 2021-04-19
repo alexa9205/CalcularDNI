@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verifique su DNI</title>
+    <link rel="stylesheet" href="dni.css" type="text/css">
+</head>
+
+<body>
+    <h1> Validación del Documento Nacional de Identidad(DNI) </h1>
+    <form name='dni' class="form" autocomplete='off'>
+        <fieldset><br/><br/>
+            <legend>Comprobar DNI</legend>
+            <label for='numero'>Número DNI:</label>
+            <input type='text' maxlength='8' name='numero' id='numero'>
+            <br/><br/>
+            <label for='letra'>Letra DNI:</label>
+            <input type='text' maxlength='1' name='letra' id='letra'>
+            <br/> <br/> <br/>
+            <div id="resultado" class="resultado"></div>
+            <div id="resultadoh1" class="resultadoh1"></div>
+            <br/> 
+            <input type='submit'  class='iButton' name='envio' value='Calcular'>
+        </fieldset>
+     
+    </form>
+    
+    <script type="text/javascript" src="dni.js"></script>
+</body>
+
+</html>

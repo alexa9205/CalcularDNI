@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(circle, rgb(233, 236, 11) 24%, rgb(255, 4, 4));
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+legend{
+    font-size: 120%;
+    background-color: rgba(221, 233, 61, 0.897);
+}
+
+form {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+    border: solid 2px #000000;
+    padding-bottom: 20px;
+    margin: auto;
+    background: #5557be;
+    font-weight: 600;
+}
+
+form input {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.iButton {
+    background-color: rgba(199, 181, 181, 0.753);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 9, 9);
+    width: 110px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+}
+
+.resultado,
+.resultadoh1 {
+    font-family: sans-serif;
+    background: #fdfdfd;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.resultadoh1{
+    font-size: 150%;
+    color: green;
+}
